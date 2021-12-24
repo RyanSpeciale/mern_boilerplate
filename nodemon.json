@@ -1,0 +1,8 @@
+{
+    "verbose": false,
+    "watch": [
+      "./server",
+      "./client"
+    ],
+    "exec": "webpack --mode=development && node ./server/server.js"
+}
